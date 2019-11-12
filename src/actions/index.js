@@ -1,4 +1,5 @@
-let selectSong = song => {
+//acyion creator
+export let selectSong = song => {
   //return action
   return {
     type: "SONG_SELECTED",
